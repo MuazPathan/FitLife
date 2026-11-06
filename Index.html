@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FitLife Fitness Studio</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f4f4f4;
+      color: #222;
+    }
+    header {
+      background: #111;
+      color: white;
+      text-align: center;
+      padding: 30px 15px;
+    }
+    header h1 { margin: 0 0 8px; }
+    section {
+      max-width: 900px;
+      margin: 30px auto;
+      padding: 0 20px;
+    }
+    h2 { text-align: center; }
+    .plans, .times {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+    .card {
+      background: white;
+      border-radius: 8px;
+      padding: 20px;
+      width: 230px;
+      text-align: center;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+    .price { font-size: 28px; font-weight: bold; color: #e63946; }
+    table {
+      width: 100%;
+      max-width: 500px;
+      margin: auto;
+      background: white;
+      border-collapse: collapse;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+    th, td { border: 1px solid #ddd; padding: 12px; text-align: center; }
+    th { background: #e63946; color: white; }
+    footer { background: #111; color: white; text-align: center; padding: 15px; margin-top: 30px; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>FitLife Fitness Studio</h1>
+    <p>Build strength. Feel your best.</p>
+  </header>
+
+  <section>
+    <h2>Membership Plans</h2>
+    <div class="plans">
+      <div class="card"><h3>Monthly</h3><p class="price">Rs 1100</p><p>Full gym access</p></div>
+      <div class="card"><h3>Quarterly</h3><p class="price">Rs 3000</p><p>Save on 3 months</p></div>
+      <div class="card"><h3>Annual</h3><p class="price">Rs 10000</p><p>Best value</p></div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Gym Timings</h2>
+    <table>
+      <tr><th>Day</th><th>Opening Hours</th></tr>
+      <tr><td>Monday–Friday</td><td>6:00 AM – 10:30 PM</td></tr>
+      <tr><td>Saturday</td><td>6:00 AM – 9:00 PM</td></tr>
+      <tr><td>Sunday</td><td>7:00 AM – 7:00 PM</td></tr>
+    </table>
+  </section>
+
+  <footer>
+    Join today and start your fitness journey! <br>
+    Your Fitness Trainer Rahul
+  </footer>
+</body>
+</html>
